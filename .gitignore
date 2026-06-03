@@ -1,0 +1,23 @@
+# Environment variables - NEVER push these
+.env
+
+# Raw data files - too large for GitHub
+data/raw/
+data/sample/
+
+# Logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow logs
+airflow/logs/
+
+# VS Code settings
+.vscode/
+
+# Windows
+Thumbs.db
