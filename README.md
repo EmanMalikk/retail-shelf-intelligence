@@ -11,19 +11,21 @@ FMCG companies lose millions in revenue due to out of stock situations at the re
 ---
 
 ## 🏗️ Architecture
+
+```
 Python Scripts (Data Ingestion)
-↓
-Apache Kafka (3 Topics: fmcg-sales, weather data, holidays data)
-↓
+        ↓
+Apache Kafka (3 Topics: fmcg-sales, weather-data, holidays-data)
+        ↓
 Databricks — Delta Lake Medallion Architecture
-├── Bronze Layer (Raw Data)
-├── Silver Layer (Cleaned + Joined)
-└── Gold Layer (Business KPIs)
-↓
+  ├── Bronze Layer (Raw Data)
+  ├── Silver Layer (Cleaned + Joined)
+  └── Gold Layer (Business KPIs)
+        ↓
 Apache Airflow (Daily Orchestration)
-↓
+        ↓
 Databricks Dashboard (Visualization)
----
+```
 
 ## 🛠️ Tech Stack
 
@@ -125,6 +127,8 @@ docker-compose -f airflow/docker-compose.yml up -d
 ---
 
 ## 📁 Project Structure
+
+```
 retail-shelf-intelligence/
 ├── kafka/                    → Kafka Docker setup
 ├── airflow/                  → Airflow Docker setup
@@ -135,6 +139,7 @@ retail-shelf-intelligence/
 ├── dashboards/               → Dashboard screenshots
 ├── configs/                  → Pipeline configuration
 └── requirements.txt          → Python dependencies
+```
 
 ---
 
