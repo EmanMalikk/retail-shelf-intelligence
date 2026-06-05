@@ -71,18 +71,14 @@ Raw data ingested as-is from all 3 sources into Delta tables:
 
 ---
 
-## 📊 Dashboard Screenshots
-
 ### Stock Risk Analysis
-![Stock Risk](dashboards/stock_risk_analysis.png)
+![Stock Risk](dashboards/stock_risk_analysis.JPG)
 
-### Weather & Brand Performance
-![Weather Brand](dashboards/weather_brand_performance.png)
+### Brand Performance
+![Brand Performance](dashboards/brand_performance.JPG)
 
-### Holiday Impact
-![Holiday Impact](dashboards/holiday_impact.png)
-
----
+### Weather & Sales Correlation
+![Weather Sales](dashboards/weather_sales.JPG)
 
 ## 🔄 Airflow DAG
 
